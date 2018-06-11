@@ -1,0 +1,424 @@
+/* <reset.css> */
+    /* ######################## Font ######################## */
+	
+    /* ROBOTO chuẩn */
+    @font-face{
+        font-family: 'Roboto';
+        src: local('Roboto Thin Italic'),
+             local('Roboto-ThinItalic'),
+             url('../../fonts/Roboto/Roboto-ThinItalic.ttf') format('truetype');
+        font-style: italic;
+        font-weight: 100;
+    }
+    @font-face{
+        font-family: 'Roboto';
+        src: local('Roboto Light Italic'),
+             local('Roboto-LightItalic'),
+             url('../../fonts/Roboto/Roboto-LightItalic.ttf') format('truetype');
+        font-style: italic;
+        font-weight: 300;
+    }
+    @font-face{
+        font-family: 'Roboto';
+        src: local('Roboto Italic'),
+             local('Roboto-Italic'),
+             url('../../fonts/Roboto/Roboto-Italic.ttf') format('truetype');
+        font-style: italic;
+        font-weight: 400;
+    }
+    @font-face{
+        font-family: 'Roboto';
+        src: local('Roboto Medium Italic'),
+             local('Roboto-MediumItalic'),
+             url('../../fonts/Roboto/Roboto-MediumItalic.ttf') format('truetype');
+        font-style: italic;
+        font-weight: 500;
+    }
+    @font-face{
+        font-family: 'Roboto';
+        src: local('Roboto Bold Italic'),
+             local('Roboto-BoldItalic'),
+             url('../../fonts/Roboto/Roboto-BoldItalic.ttf') format('truetype');
+        font-style: italic;
+        font-weight: 700;
+    }
+    @font-face{
+        font-family: 'Roboto';
+        src: local('Roboto Black Italic'),
+             local('Roboto-BlackItalic'),
+             url('../../fonts/Roboto/Roboto-BlackItalic.ttf') format('truetype');
+        font-style: italic;
+        font-weight: 900;
+    }
+    @font-face{
+        font-family: 'Roboto';
+        src: local('Roboto Thin'),
+             local('Roboto-Thin'),
+             url('../../fonts/Roboto/Roboto-Thin.ttf') format('truetype');
+        font-style: normal;
+        font-weight: 100;
+    }
+    @font-face{
+        font-family: 'Roboto';
+        src: local('Roboto Light'),
+             local('Roboto-Light'),
+             url('../../fonts/Roboto/Roboto-Light.ttf') format('truetype');
+        font-style: normal;
+        font-weight: 300;
+    }
+    @font-face{
+        font-family: 'Roboto';
+        src: local('Roboto'),
+             local('Roboto-Regular'),
+             url('../../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+        font-style: normal;
+        font-weight: 400;
+    }
+    @font-face{
+        font-family: 'Roboto';
+        src: local('Roboto Medium'),
+             local('Roboto-Medium'),
+             url('../../fonts/Roboto/Roboto-Medium.ttf') format('truetype');
+        font-style: normal;
+        font-weight: 500;
+    }
+    @font-face{
+        font-family: 'Roboto';
+        src: local('Roboto Bold'),
+             local('Roboto-Bold'),
+             url('../../fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+        font-style: normal;
+        font-weight: 700;
+    }
+    @font-face{
+        font-family: 'Roboto';
+        src: local('Roboto Black'),
+             local('Roboto-Black'),
+             url('../../fonts/Roboto/Roboto-Black.ttf') format('truetype');
+        font-style: normal;
+        font-weight: 900;
+    }
+    /* end ROBOTO chuẩn */
+
+    /* HelveticaNeue */
+	
+    @font-face{
+        font-family: 'HelveticaNeue';
+        src: url('../../fonts/HelveticaNeue/helveticaneueultralight.ttf') format('truetype');
+        font-style: normal;
+        font-weight: 200;
+    }
+    @font-face{
+        font-family: 'HelveticaNeue';
+        src: url('../../fonts/HelveticaNeue/helveticaneueultralightitalic.ttf') format('truetype');
+        font-style: italic;
+        font-weight: 200;
+    }
+
+    @font-face{
+        font-family: 'HelveticaNeue';
+        src: url('../../fonts/HelveticaNeue/helveticaneuelight.ttf') format('truetype');
+        font-style: normal;
+        font-weight: 300;
+    }
+    @font-face{
+        font-family: 'HelveticaNeue';
+        src: url('../../fonts/HelveticaNeue/helveticaneuelightitalic.ttf') format('truetype');
+        font-style: italic;
+        font-weight: 300;
+    }
+
+    @font-face{
+        font-family: 'HelveticaNeue';
+        src: url('../../fonts/HelveticaNeue/helveticaneue.ttf') format('truetype');
+        font-style: normal;
+        font-weight: 400;
+    }
+    @font-face{
+        font-family: 'HelveticaNeue';
+        src: url('../../fonts/HelveticaNeue/helveticaneueitalic.ttf') format('truetype');
+        font-style: italic;
+        font-weight: 400;
+    }
+
+    @font-face{
+        font-family: 'HelveticaNeue';
+        src: url('../../fonts/HelveticaNeue/helveticaneuebold.ttf') format('truetype');
+        font-style: normal;
+        font-weight: 700;
+    }
+    @font-face{
+        font-family: 'HelveticaNeue';
+        src: url('../../fonts/HelveticaNeue/helveticaneuebolditalic.ttf') format('truetype');
+        font-style: italic;
+        font-weight: 700;
+    }
+
+    @font-face{
+        font-family: 'HelveticaNeue';
+        src: url('../../fonts/HelveticaNeue/helveticaneuecondensedbold.ttf') format('truetype');
+        font-style: italic;
+        font-weight: 800;
+    }
+
+    @font-face{
+        font-family: 'HelveticaNeue';
+        src: url('../../fonts/HelveticaNeue/helveticaneuecondensedblack.ttf') format('truetype');
+        font-style: normal;
+        font-weight: 900;
+    }
+
+    /* end HelveticaNeue */
+
+    
+    @font-face{
+        font-family: 'fas';
+        src: url('../../fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf') format('truetype');
+        font-style: normal;
+        font-weight: 400;
+    }
+
+	
+    /* ######################## Reset ######################## */
+    html, body {
+        min-height: 100%;
+        background: #fff;
+    }
+    body {
+        color: #000;
+        font: 400 14px/20px 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        margin: 0 0 10px 0;
+        font-size: 16px;
+        line-height: 20px
+    }
+    *, :before, :after {
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    :before, :after {font-weight: normal;}
+    ul, ol {
+        margin: 0;
+        padding: 0;
+        list-style-position: inside;
+    }
+    form input[type=text]::-webkit-input-placeholder, 
+    form textarea::-webkit-input-placeholder {
+        color: #666;
+        font-size: 14px;
+    }
+    form input[type=text]::-moz-placeholder, 
+    form textarea::-moz-placeholder {
+        color: #666;
+        font-size: 14px;
+    }
+    form input[type=text]:-ms-input-placeholder, 
+    form textarea:-ms-input-placeholder {
+        color: #666;
+        font-size: 14px;
+    }
+    form input[type=text]:-moz-placeholder, 
+    form textarea:-moz-placeholder {
+        color: #666;
+        font-size: 14px;
+    }
+    form input[type=checkbox]:not(:disabled),
+    form input[type=radio]:not(:disabled) {
+        cursor: pointer;
+        vertical-align: middle;
+        margin: 0 5px 0 0;
+    }
+    label {
+        display: inline-block;
+        cursor: pointer;
+    }
+    @media (min-width: 1220px) {
+        .uk-container {
+            max-width: 1172px;
+            padding: 0;
+        }
+    }
+    @media (max-width: 1220px) {
+        .uk-container {padding: 0 10px}
+    }
+
+    /* ######################## General ######################## */
+    .logo {
+        margin: 0;
+        padding: 0;
+		max-width:215px;
+    }
+    .logo a {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .btn-submit, .btn {
+        cursor: pointer;
+        outline: none;
+    }
+    .banner {display: block;}
+    .banner p, .banner a  {margin: 0;}
+    .banner img,.banner a {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .uk-modal-close.uk-close {
+        position: absolute;
+        width: 32px;
+        height: 32px; 
+        top: 0px;
+        right: 0px; 
+        opacity: 1;
+        background: #fff url(../../img/icon_close.png) center no-repeat;
+        -webkit-border-radius: 50%; 
+        -moz-border-radius: 50%; 
+        -ms-border-radius: 50%; 
+        -o-border-radius: 50%; 
+        border-radius: 50%; 
+        -webkit-background-size: 32px;
+        -moz-background-size: 32px;
+        -ms-background-size: 32px;
+        -o-background-size: 32px;
+        background-size: 13px;
+        z-index: 1020;
+    }
+    .uk-modal-close.uk-close:after {display: none;}
+    .uk-modal-dialog-lightbox .uk-slidenav {
+        height: 100%;
+        width: 35%;
+        top: 0;
+        z-index: 1;
+        -webkit-transform: translate(0, 0%);
+        -moz-transform: translate(0, 0%);
+        -ms-transform: translate(0, 0%);
+        -o-transform: translate(0, 0%);
+        transform: translate(0, 0%);
+    }
+    .uk-modal-dialog-lightbox .uk-slidenav:before {
+        display: inline-block;
+        width: 30px;height: 30px;
+        border-radius: 50%;
+        line-height: 30px;text-align: center;
+        font-size: 24px;
+        background: rgba(0, 0, 0, .7);
+        margin: 0;
+        position: absolute;
+        top: 50%;left: 10px;
+        -webkit-transform: translate(0%, -50%);
+        -ms-transform: translate(0%, -50%);
+        -o-transform: translate(0%, -50%);
+        transform: translate(0%, -50%);
+    }
+    .uk-modal-dialog-lightbox .uk-slidenav-previous  {left: 0px;}
+    .uk-modal-dialog-lightbox .uk-slidenav-next {right: 0px;}
+    .uk-modal-dialog-lightbox .uk-slidenav-next:before {left: initial;right: 10px;}
+    #backtop {
+        position: fixed;
+        right: 30px;
+        clip: rect(auto, auto, auto, auto);
+        display: block;
+        width: 40px;
+        height: 40px;
+        background: #d52027;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        border-radius: 50%;
+        font-size: 20px;
+        color: #fff; 
+        text-align: center;
+        line-height: 40px;
+        z-index: 9999; 
+    }
+     #backtop:hover {opacity: .8;}
+    @media (max-width: 960px) {
+        #backtop {
+            display: none!important;
+            visibility: hidden;
+            opacity: 0;
+            z-index: -1
+        }
+    }
+    
+    /* ######################## Breadcrumb ######################## */
+    .breadcrumb {
+        position: relative;
+        padding: 15px 0 10px 0;
+        margin: 0 0 15px 0;
+        background: #fff;
+        color: #828282;
+    }
+    .breadcrumb ul {
+        height: 18px;
+        overflow: hidden; 
+        -ms-text-overflow: ellipsis; 
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .breadcrumb ul a {
+        font-size: 14px;
+        line-height: 18px;
+        color: #828282;
+    }
+    .breadcrumb ul li:not(:first-child) a:hover {color: #ff9813;}
+    .breadcrumb ul li.uk-active a {color: #ff9813;}
+    .uk-breadcrumb>li+li:before {
+        content: "\f101";
+        font-family: FontAwesome;
+        display: block;
+        position: absolute;
+        color: inherit;
+        left: -5px;
+        top: 50%;
+        -webkit-transform: translate(0, -50%);
+        -moz-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+        -o-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+		color:#fff;
+    }
+    @media (max-width: 960px) {
+        .breadcrumb {
+            margin: 0 0 10px 0;
+            padding: 8px 0;
+            background: #eee;
+            color: #666;
+        }
+        .breadcrumb ul a {
+            font-size: 13px; 
+            color: #666;
+        }
+    }
+
+    /* ######################## Pagination ######################## */
+    .pagination {padding: 10px 0 0 0;}
+    .pagination .uk-pagination>li:nth-child(n+2) {margin-left: 5px;}
+    .pagination ul>li>a {
+        display: block;
+        padding: 0;
+        width: 26px;
+        height: 26px;
+        line-height: 26px;
+        font-size: 13px;
+        background: #f2f2f2;
+        border: 1px solid #dddddd;
+        color: #252525;
+        border-radius: 0;
+    }
+     .pagination ul>li .fa {font-size: 10px;}
+    .pagination ul>li:hover>a, 
+    .pagination ul>li.uk-active>a {
+        background: #0388cd;
+        border-color: #0388cd;
+        color: #fff;
+    }
+/* </reset.css> */

@@ -1,0 +1,13 @@
+<script src="resources/uikit/js/components/slider.min.js"></script>
+<script src="resources/uikit/js/components/slideshow.min.js"></script>
+<script src="resources/uikit/js/components/slideset.min.js"></script>
+<script src="resources/uikit/js/components/tooltip.min.js"></script>
+<script src="resources/uikit/js/components/sticky.min.js"></script>
+<script src="resources/uikit/js/core/switcher.min.js"></script>
+<script src="resources/uikit/js/components/accordion.min.js"></script>
+<script src="resources/uikit/js/components/lightbox.min.js"></script>
+<script src="resources/uikit/js/core/scrollspy.min.js"></script>
+<script src="resources/plugins/flex-slider/jquery.flexslider-min.js"></script>
+<script src="resources/plugins/slick/slick.min.js"></script>
+<script src="resources/function.js"></script>
+<script src="resources/library/js/library.js"></script>
