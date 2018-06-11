@@ -675,4 +675,20 @@ margin-left: 5px; }
     .form-ft input[type="text"] {
         width:100%;
     }
+    padding: 0px 0px;
+    min-height: 50px;
+}
+
+}
+
+@media(max-width:414px){
+     .nav-bottom a{
+        padding:0px 0px;
+        min-height: 80px;
+    }
+}
+@media(max-width: 320px){
+    .nav-bottom a{
+        min-height: 100px;
+    }
 }
